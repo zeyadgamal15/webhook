@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 [build]
-  command = "npm install && npm run build"
-  publish = "public"
+  functions = "functions"  # المسار اللي فيه الدوال
+  publish = "public"       # المسار اللي فيه الملفات الجاهزة للنشر
 
 [[plugins]]
-  package = "@netlify/plugin-functions-core"
-=======
-[build]
-  command = "npm install && npm run build"
-  publish = "public"
-
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
->>>>>>> 73b0212facf5a3f142687133f972cf95ab542f23
+  package = "@netlify/functions"
