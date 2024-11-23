@@ -1,0 +1,17 @@
+{
+  "name": "telegram-webhook",
+  "version": "1.0.0",
+  "description": "Telegram bot webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
