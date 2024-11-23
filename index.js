@@ -1,3 +1,5 @@
+(التغييرات في النسخة الموجودة على GitHub)
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const fetch = require('node-fetch');  // لتسهيل إرسال الردود
