@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 [build]
-  command = "npm install && npm run build"
+  base    = "/"
   publish = "public"
+  command = "npm run build"
+
+[build.environment]
+  NODE_ENV = "production"
 
 [[plugins]]
   package = "@netlify/plugin-functions-core"
-=======
-[build]
-  command = "npm install && npm run build"
-  publish = "public"
-
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
->>>>>>> 73b0212facf5a3f142687133f972cf95ab542f23
