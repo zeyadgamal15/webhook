@@ -1,6 +1,18 @@
 [build]
+<<<<<<< HEAD
   functions = "functions"  # المسار اللي فيه الدوال
   publish = "public"       # المسار اللي فيه الملفات الجاهزة للنشر
 
 [[plugins]]
   package = "@netlify/functions"
+=======
+  base    = "/"
+  publish = "public"
+  command = "npm run build"
+
+[build.environment]
+  NODE_ENV = "production"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+>>>>>>> 1f266aae5e8625e1ca6b78c0d2749ef43af28d10
